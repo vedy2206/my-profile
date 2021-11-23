@@ -1,0 +1,150 @@
+
+body {
+    margin: 0px;
+    text-align: center;
+    background-color: #EEEBDD;
+    font-family: 'Outfit', sans-serif;
+}
+.container {
+    width: 700px;
+    margin: 0px auto;
+  }
+
+.barra-superior {
+    background-color:#000000;
+    color:  #EEEBDD;
+    margin: 0px;
+}
+#barra-superior-1 {
+    margin-top: 0px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+strong {
+    font-weight:bolder;
+    font-size: 39px;
+}
+#barra-superior-2 {
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+    font-size: 25px;
+} 
+#foto-perfil {
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: 6px 8px 10px rgba(0, 0, 0, 0.3);
+    margin-top: 30px;
+}
+#frase {
+    font-weight: bolder;
+}
+#boton {
+    text-decoration: none;
+    background-color: #000000;
+    border-radius: 10px;
+    color:#EEEBDD ;
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 15px;
+    box-shadow: 6px 8px 10px rgba(0, 0, 0, 0.3);
+
+}
+#boton:hover {
+
+    background-color: #0000005b;
+    transition: 0.3s;
+}
+.card {
+    border: 1px solid #000000;
+    border-radius: 10px;
+    margin: 30px 20px;
+    padding: 0px 25px;
+    box-shadow: 6px 8px 10px rgba(0, 0, 0, 0.3);
+
+}
+.card:hover {
+    box-shadow: 6px 8px 10px rgba(0, 0, 0, 0.7); 
+    transition: 0.3s;
+}
+
+.card h2 {
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+#html {
+    display: inline;
+}
+#html i:hover {
+    color: #000000;
+    transition: 0.3s;
+}
+#css {
+    display: inline;
+}
+#css i:hover {
+    color: #000000;
+    transition: 0.3s;
+}
+#javascript {
+    display: inline;
+}
+#javascript i:hover {
+    color: #000000;
+    transition: 0.3s;
+}
+.card p {
+    text-align: justify;
+}
+.card i {
+    font-size: 30px;
+}
+h3 {
+    font-size: 25px;
+}
+
+.iconos-redes {
+    list-style: none;
+    display: inline-block;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+.iconos-redes i {
+    font-size: 45px;
+    color: #000000;
+    padding: 0px 25px 35px 25px;
+}
+.iconos-redes i:hover {
+    color: #0000005b;
+    transition: 0.3s;
+}
+.fa-html5 {
+    color: #F64A1D;
+}
+.fa-css3-alt {
+    color: #6BA0CB;
+}
+.fa-js-square {
+    color: #EFD81D;
+}
+
+@media (max-width: 960px) {
+    /* Para una pantalla < 960px, se leerá este CSS */
+    .container {
+      width: 700px;
+    }
+  }
+  @media (max-width: 720px) {
+    /* Para una pantalla < 720px, se leerá este CSS */
+    .container {
+      width: 500px;
+    }
+  }
+  @media (max-width: 540px) {
+    /* Para una pantalla < 540px, se leerá este CSS */
+    .container {
+      width: 300px;
+    }
+  }
